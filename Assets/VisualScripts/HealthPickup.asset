@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: HealthPickup
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":37.0,"y":10.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-122.0,"y":-63.0},"guid":"90ac1eff-0893-4176-823e-d7fe990bcf61","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter2D","$id":"9"},{"chainable":false,"parameterNames":["obj"],"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":238.0,"y":-59.0},"guid":"4165a91a-ff6a-469a-8a49-ef71ce364a19","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"defaultValues":{},"position":{"x":15.0,"y":148.0},"guid":"1a44040f-f416-4866-bb8e-021ed46f3d20","$version":"A","$type":"Unity.VisualScripting.This","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"b15abfed-6d80-4c5f-ac08-bf3391b07d41","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"self","destinationUnit":{"$ref":"11"},"destinationKey":"%obj","guid":"155f887a-bd24-405c-ad7d-5f2bf4be1da8","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
